@@ -4,6 +4,7 @@ header {
     display:flex; flex-flow: row nowrap; 
     justify-content: space-between; align-items: center;
     max-width: 1160px; height: 100px; margin:0 auto; 
+    position: relative;
 }
 header h1 {
     background: yellow;
@@ -23,3 +24,16 @@ header nav ul li a {
 }
 /* 모바일 메뉴 - 데스크탑에서 숨기기 */
 header nav .m_nav{display:none;}
+header .m_nav_open {
+    background: pink; display: none;
+    position: absolute; width:100%; top:100px;
+}
+header .m_nav_open #close {font-size:24px;
+    position: absolute; right:20px; top:5px;  
+}
+header .m_nav_open ul {
+    text-align: center; 
+    margin:43px 0 43px;
+}
+header .m_nav_open ul li {margin-bottom:30px;}
+header .m_nav_open ul li a {font-size: 1.33rem;}
