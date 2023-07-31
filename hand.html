@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <style>
+        #pawin_swiper {width: 1000px; height: 800px; background: pink;}
+        #pawin_swiper  .swiper-wrapper {}
+        #pawin_swiper  .swiper-wrapper .swiper-slide{}
+        #pawin_swiper  .swiper-wrapper .s1{background: url(https://picsum.photos/id/501/1000)no-repeat;}
+        #pawin_swiper  .swiper-wrapper .s2{background: url(https://picsum.photos/id/499/1000)no-repeat;}
+        #pawin_swiper  .swiper-wrapper .s3{background: url(https://picsum.photos/id/498/1000)no-repeat;}
+        #pawin_swiper  .swiper-wrapper .s4{background: url(https://picsum.photos/id/497/1000)no-repeat;}
+        #pawin_swiper  .swiper-wrapper .s5{background: url(https://picsum.photos/id/496/1000)no-repeat;}
+        #pawin_swiper  .swiper-wrapper .s6{background: url(https://picsum.photos/id/495/1000)no-repeat;}
+    </style>
+</head>
+<body>
+    <div class="swiper" id="pawin_swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide s1">1</div>
+            <div class="swiper-slide s2">2</div>
+            <div class="swiper-slide s3">3</div>
+            <div class="swiper-slide s4">4</div>
+            <div class="swiper-slide s5">5</div>
+            <div class="swiper-slide s6">6</div>
+        </div>
+    </div>
+    <script>
+        const pawin_swiper = new swiper('#pawin_swiper', {
+            autoplay:{delay:1000},
+            loop:true
+        })
+    </script>
+</body>
+</html>
