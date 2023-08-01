@@ -92,4 +92,21 @@ main #s .swiper-button-next {
     background: url(../images/Right\ chevron.png);
 } */
 
+/* pawin-slide2 */
+main #pawin_slide2 {
+    max-width:1160px; margin:0 auto; 
+    /* slide 대상으로 img태그를 삽입한 경우 높이값은 이미지 태그만큼 자동으로 설정되므로 별도의 높이값은 작성할 필요가 없다. */
+}
+main #pawin_slide2 .swiper-wrapper img {width:100%;}
 
+/* 입양정보 slide */
+main .dog_info {
+    padding:100px 0 50px;
+    font-size: 2rem; text-align: center;
+}
+main #dog_info_slide {
+    background: aqua; 
+    max-width:1160px; margin: 0 auto;
+    width:calc(100% - 30px);
+}
+main #dog_info_slide .swiper-wrapper.swiper-slide img {width: 100%;}

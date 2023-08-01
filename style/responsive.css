@@ -5,6 +5,9 @@ media max-width의 첫번째 조건 값은 웹사이트 width값 기준으로 �
 @media screen and (max-width:1160px) {
     header {width:calc(100% - 30px);}
     /* main #pawin_slide {width:calc(100% - 30px);} */
+    main #pawin_slide2 .swiper-wrapper {
+        width:calc(100% - 30px);
+    }
 }/*1160 end*/
 @media screen and (max-width:900px) {
     header nav ul {display: none;}
