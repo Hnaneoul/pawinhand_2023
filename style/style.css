@@ -109,4 +109,4 @@ main #dog_info_slide {
     max-width:1160px; margin: 0 auto;
     width:calc(100% - 30px);
 }
-main #dog_info_slide .swiper-wrapper.swiper-slide img {width: 100%;}
+main #dog_info_slide .swiper-wrapper .swiper-slide img {width: 100%;}
